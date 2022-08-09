@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/profile.css";
 
 const Profile = () => {
   return (
@@ -15,6 +14,7 @@ const Profile = () => {
       <Link to="/settings">
         <div>Settings</div>
       </Link>
+      <h1>Profile page</h1>
     </>
   );
 };

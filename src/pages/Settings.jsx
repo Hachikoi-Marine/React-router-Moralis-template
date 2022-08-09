@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/settings.css";
 
 const Settings = () => {
   return (
@@ -15,6 +14,7 @@ const Settings = () => {
       <Link to="/settings">
         <div>Settings</div>
       </Link>
+      <h1>Settings page</h1>
     </>
   );
 };
